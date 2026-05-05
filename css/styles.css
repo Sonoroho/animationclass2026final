@@ -22,6 +22,7 @@ main {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  padding-block-start: 40px;
   
 }
 
@@ -62,9 +63,11 @@ h2 {
 }
 
 h3 {
-  color: white;
+  color: lightskyblue;
   font-weight: bold;
   text-align: center;
+  text-decoration: underline;
+  text-decoration-color: lightskyblue;
 }
 
 
@@ -118,7 +121,6 @@ h3 {
   }
 
   img {
-    position: absolute;
     inset: 0;
     width: 100%;
     height: 100%;
@@ -140,13 +142,28 @@ h3 {
 
 .second-ul {
     text-align: left;
+    
 }
 
  .second-image{
    max-width: 400px;
+   max-height: 200px;
    position: relative;
    object-position: center;
     display: block;
     margin: auto;
     padding-top: 15px;
  }
+
+ .banner {
+  position: relative;
+  max-width: 400px;
+   max-height: 200px;
+  border: 3px solid black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
